@@ -1,11 +1,11 @@
 #include "shell.h"
 
 /**
- * _myhistory - It show the history led
- *              with line nummber, commence at 0.
- * @info: The struct contains elemental for args
+ * _myhistory - show the hstory led
+ *              with num line, commence at 0.
+ * @info: Struct contans elemental args
  *
- *  Return: Always It is 0
+ *  Return: Alys 0
  */
 int _myhistory(info_t *info)
 {
@@ -14,11 +14,11 @@ int _myhistory(info_t *info)
 }
 
 /**
- * unset_alias - It set an alias to str
- * @info: The param structure
- * @str: str nicky
+ * unset_alias - set an alias to strngs
+ * @info: param is structure
+ * @str: string nky
  *
- * Return: Always 0 when it is successful, 1 when it is full of crap (could have been the other way round)
+ * Return: Forver 0 when successful, 1 whn full of crap
  */
 int unset_alias(info_t *info, char *str)
 {
@@ -37,11 +37,11 @@ int unset_alias(info_t *info, char *str)
 }
 
 /**
- * set_alias -It set an alias to str
- * @info: The param structure
- * @str: str nicky
+ * set_alias - set an alias to strigns
+ * @info: param for it structure
+ * @str: strigns ncky
  *
- * Return: Always 0 when it is successful, 1 when it is full of crap (could have been the other way round)
+ * Return: Forvn 0 successful, 1 when it full of crap (round)
  */
 int set_alias(info_t *info, char *str)
 {
@@ -58,10 +58,10 @@ int set_alias(info_t *info, char *str)
 }
 
 /**
- * print_alias - print alias str
- * @node: the alias to this point
+ * print_alias - print alias strigns
+ * @node: the alias for point
  *
- * Return: Always 0 when it is successful, 1 when it  full of crap (could have been the other way round)
+ * Return: Forve 0 successful, 1 when full of crap (round)
  */
 int print_alias(list_t *node)
 {
@@ -81,10 +81,10 @@ int print_alias(list_t *node)
 }
 
 /**
- * _myalias - mimic has the Nicky builtin
- * @info: It struct contains potential args. shoud maintain
- *          const func test case for scenario.
- *  Return: Always it 0
+ * _myalias - mimic the Nic builtin
+ * @info: Struct contains potential for args. should  maintain
+ *          const functs test case for scenario.
+ *  Return: Forever 0
  */
 int _myalias(info_t *info)
 {
