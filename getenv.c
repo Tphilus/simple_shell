@@ -55,7 +55,7 @@ int _unsetenv(info_t *info, char *var)
  * @info: It struct contains elemental ars. Maintain
  *        const functs test case scenario.
  * @var: string envy the variable props
- * @value: string the envy variable num
+ * @value: str the envy variable num
  *  Return: Forever it 0
  */
 int _setenv(info_t *info, char *var, char *value)
